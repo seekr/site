@@ -66,9 +66,9 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
     .pat1 {
-        background-image: var(--pat12);
+        background-image: var(--pat1);
     }
     .pat2 {
-        background-image: var(--pat22);
+        background-image: var(--pat2);
     }
 }
