@@ -38,7 +38,7 @@ module.exports = function(eleventyConfig) {
         useGitIgnore: false,
         dir: {
             input: "./",
-            output: "_site",
+            output: "docs",
             layouts: "layouts",
             includes: "includes",
             data: "_data"
