@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.fade { 
+    filter: grayscale(100%) contrast(20) opacity(0.5);
+}
+
 a[href^="/"] {
     text-decoration: none;
     color: var(--grey);
