@@ -3,7 +3,12 @@
     --grey: #001b44;
 }
 
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 html {
+    font-family: 'Inter', sans-serif;
     font-size:  100%;
     scroll-behavior: smooth;
 }
