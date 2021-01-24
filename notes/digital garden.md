@@ -1,1 +1,1 @@
-_this note is awaiting for the intervention from the Muse_
+_this note is awaiting the intervention from the Muse_
