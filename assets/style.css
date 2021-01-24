@@ -34,6 +34,7 @@ html {
     font-family: 'Inter', sans-serif;
     font-size:  100%;
     scroll-behavior: smooth;
+    transition: all 250ms ease;
 }
 
 .fade { 
@@ -41,7 +42,7 @@ html {
 }
 
 section img, article img {
-    box-shadow: 0 4px 12px #0003;
+        box-shadow: 0 4px 12px #0003;
     border-radius: 16px;
 }
 
