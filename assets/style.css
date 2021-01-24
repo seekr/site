@@ -50,6 +50,7 @@ section p, header p, article p, footer p {
     max-width: 420px /* measure */;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.6;
 }
 
 a[href^="/"] {

@@ -1,8 +1,8 @@
 {% if backlinks.length > 0%}
-<section class="cf f7">
+<section class="cf f6 lh-copy">
    <p class="fw6">Backlinks</p>
    {% for link in backlinks %}
-    <div class="mv0 measure center"><a href="{{link.url}}" class="backlink__link">{{link.title}}</a>
+    <div class="mv0 measure center pv1"><a href="{{link.url}}" class="backlink__link">{{link.title}}</a>
         <div class="backlink__preview" role="none">
         {{link.preview | markdownify }}
         </div>
