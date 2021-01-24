@@ -40,6 +40,11 @@ html {
     filter: grayscale(100%) contrast(20) opacity(0.5);
 }
 
+section img, article img {
+    box-shadow: 0 4px 12px #0003;
+    border-radius: 16px;
+}
+
 section p, header p, article p, footer p {
     max-width: 420px /* measure */;
     margin-left: auto;
