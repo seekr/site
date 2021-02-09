@@ -76,6 +76,18 @@ a[href^="http"]:focus {
     font-size: 0.8em;
 }
 
+blockquote {
+    border-color: #357edd;
+    border-left-style: solid;
+    border-width: .25rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
 /* backlinks */
 .backlinks-title {
     margin-bottom: 0;
